@@ -58,7 +58,24 @@ body{
     background-color: rgb(74, 0, 211);
     border-radius: 100%;
     position: relative;
+    color: #fff;
 }
+.footer_logo_icon{
+    font-size: 100px;
+    height: 150px;
+    width: 150px;
+    background-color: rgb(74, 0, 211);
+    border-radius: 100%;
+    position: relative;
+}
+.footer_logo_icon i{
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+
+}
+
 .icon-logo i{
     position: relative;
     left: 6px;
@@ -268,6 +285,11 @@ img{
     gap: 15px;
     grid-template-columns: 1fr 1fr;
     box-sizing: border-box;
+    margin: 0px;
+}
+.contact-us-section{
+    background-color: rgb(176, 176, 255);
+    padding-top: 20px;
 }
 .contact-us-section h4{
     margin-bottom: 0px;
@@ -275,6 +297,7 @@ img{
     text-align: center;
     font-weight:bold;
     color:var(--accent-color);
+    margin-bottom: 20px;
 }
 .information{
     text-align: center;
@@ -308,5 +331,65 @@ img{
     margin: auto;
     display:block;
 }
+.footer{
+    background-color: var(--primary-color);
+    padding:50px 20px;
+    margin-bottom: 20px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    box-sizing: border-box;
+    color: #fff;
+    font-size:19px;
+}
+.footer-icon{
+    margin-top: 20px;
+    color: #fff;
+}
+.footer_writeup1{
+    margin-top: 10px;
+}
+.footersub_c{
+    background-color: var(--primary-color);
+    padding:30px 20px;
+    margin-bottom: 20px;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    box-sizing: border-box;
+}
+.footersub_c a{
+    color: #fff;
+    display: block;
+    margin-top: 10px;
+}
+.footer_writeup1 a{
+    color: #fff;
+    display: block;
+    /* margin-top: 30px; */
+}
+.footer_writeup1 div{
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-right: 200px;
+}
+.hamburger_button{
+    display:none
+}
+@media (max-width:640px){
+    .menu-uno{
+        display: none;
+    }
+    .nav-top-menu{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .hamburger_button{
+        display: block;
+        
+    }
+}
+
 
 
