@@ -393,6 +393,12 @@ img{
     .section-six{
         grid-template-columns: 1fr;
     }
+    .footer{
+        grid-template-columns: 1fr;
+    }
+    .footersub_c{
+        grid-template-columns: 1fr;
+    }
 }
 
 
