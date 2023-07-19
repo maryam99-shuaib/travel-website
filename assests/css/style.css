@@ -387,7 +387,9 @@ img{
     }
     .hamburger_button{
         display: block;
-        
+    }
+    .section-two{
+        grid-template-columns:  1fr;
     }
 }
 
