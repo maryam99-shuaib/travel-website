@@ -399,6 +399,14 @@ img{
     .footersub_c{
         grid-template-columns: 1fr;
     }
+    .sub-c{
+        grid-template-columns: 1fr;
+        
+    }
+    .section-five-writeup{
+        font-size: 20px;
+    }
+    
 }
 
 
