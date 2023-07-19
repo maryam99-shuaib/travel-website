@@ -390,6 +390,9 @@ img{
     .section-three{
         grid-template-columns: 1fr;
     }
+    .section-six{
+        grid-template-columns: 1fr;
+    }
 }
 
 
