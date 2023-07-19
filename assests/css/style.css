@@ -38,7 +38,6 @@ body{
     align-items: baseline;
     font-size: smaller;
     font-weight: bolder;
-   
 }
 .menu-uno>div{
     padding-inline: 20px;
@@ -116,10 +115,7 @@ body{
     background-size: cover;
     z-index: -2;
 }
-img{
-    /* width: 400px; */
-    /* height: 150px; */
-}
+
 .writeup-one{
     font-weight: bolder;
     font-size: 50px;
@@ -390,6 +386,9 @@ img{
     }
     .section-two{
         grid-template-columns:  1fr;
+    }
+    .section-three{
+        grid-template-columns: 1fr;
     }
 }
 
