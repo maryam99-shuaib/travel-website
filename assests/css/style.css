@@ -406,7 +406,9 @@ img{
     .section-five-writeup{
         font-size: 20px;
     }
-    
+    .image-grid{
+        grid-template-columns: repeat(2, 1fr); 
+    }
 }
 
 
