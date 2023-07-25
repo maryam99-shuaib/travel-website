@@ -242,6 +242,7 @@ img{
 }
 .image-grid>img{
     border-radius: 9px;
+    height:500px;
 }
 .section-four>button{
     padding:10px 20px;
@@ -373,6 +374,35 @@ img{
 .hamburger_button{
     display:none
 }
+@media(max-width:1000px){
+    nav{
+        position: relative;
+    }
+    .sidebar{
+        background-color:var(--primary-color);
+        position: absolute;
+        top:0px;
+        right:0px;
+        padding-top: 20px;
+        padding-inline: 20px;
+        display:none;
+        flex-direction: column;
+        height:100vh;
+        gap:20px;
+    }
+    .sidebar a{
+        color: #fff;
+        text-decoration: none;
+    }
+    #hamburger_btn:checked ~ .sidebar{
+        display: flex;
+    }
+    .sidebar-close_btn{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+}
 @media (max-width:640px){
     .menu-uno{
         display: none;
@@ -381,6 +411,7 @@ img{
         padding-top: 20px;
         padding-bottom: 20px;
     }
+   
     .hamburger_button{
         display: block;
     }
@@ -401,13 +432,24 @@ img{
     }
     .sub-c{
         grid-template-columns: 1fr;
-        
+        grid: column-reverse;
+    }
+    .sub-c.one>img{
+        order: 1;
+        /* width: 30px; */
+    }
+    .sub-c.one>div{
+        order: 2;
+        /* width: 30px; */
     }
     .section-five-writeup{
         font-size: 20px;
     }
     .image-grid{
         grid-template-columns: repeat(2, 1fr); 
+    }
+    .footer_writeup1 div{
+        padding-right: 0px;
     }
 }
 
