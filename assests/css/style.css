@@ -449,7 +449,7 @@ img{
         grid-template-columns: repeat(2, 1fr); 
     }
     .image-grid>img{
-        height:250px;
+        height:180px;
     }
     .footer_writeup1 div{
         padding-right: 0px;
