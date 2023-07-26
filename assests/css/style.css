@@ -374,6 +374,11 @@ img{
 .hamburger_button{
     display:none
 }
+
+.sidebar{
+    display:none;
+}
+
 @media(max-width:1000px){
     nav{
         position: relative;
