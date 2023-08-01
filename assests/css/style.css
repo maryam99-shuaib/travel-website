@@ -144,6 +144,9 @@ body{
     text-align: left;
     /* padding-left: 50px; */
 }
+.mt-4 {
+    margin-top: 4 !important;
+  }
 img{
     /* border-radius: 20px; */
     width:100%
@@ -377,6 +380,9 @@ img{
 
 .sidebar{
     display:none;
+}
+.btn-danger{
+    color: #fff;
 }
 
 @media(max-width:1000px){
