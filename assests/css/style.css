@@ -179,6 +179,10 @@ img{
     box-sizing: border-box;
     margin-inline:auto;
     box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+
 }
 .box{
     background-color:var(--primary-color);
